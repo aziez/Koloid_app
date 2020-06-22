@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a148c"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/pp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_pengembang"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/profile_images"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/prof"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_cyan"
+        app:layout_constraintTop_toBottomOf="@+id/profile_images"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/dewi_setiya_ningrum"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:fontFamily="cursive"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/bg_menu"
+        android:padding="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_00"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25sp"
+            android:textColor="@color/puprple"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColor="#424242"
+            android:fontFamily="cursive"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jenjang"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25sp"
+            android:textColor="@color/puprple"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sma_kelas_xi"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColor="#424242"
+            android:fontFamily="cursive"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_telpon"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25sp"
+            android:textColor="@color/puprple"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="cursive"
+            android:text="@string/_087745671651"
+            android:textAlignment="center"
+            android:textColor="#424242"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25sp"
+            android:textColor="@color/puprple"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dewisetiyaningrum31_gmail_com"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#424242"
+            android:fontFamily="cursive"
+            android:layout_marginTop="2dp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

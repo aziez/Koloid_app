@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Koloid</string>
+    <string name="judul">KOLOID</string>
+    <string name="profile">PROFILE</string>
+    <string name="kopetensi">KOPETENSI</string>
+    <string name="referensi">REFERENSI</string>
+    <string name="materi">MATERI</string>
+    <string name="games">GAMES</string>
+    <string name="evaluasi">EVALUASI</string>
+    <string name="profile_pengembang">Profile Pengembang</string>
+    <string name="dewi_setiya_ningrum">Dewi Setiya Ningrum</string>
+    <string name="judul_00">Judul</string>
+    <string name="jenjang">Jenjang</string>
+    <string name="sma_kelas_xi">SMA Kelas XI</string>
+    <string name="no_telpon">No Telpon</string>
+    <string name="_087745671651">087745671651</string>
+    <string name="email">Email</string>
+    <string name="dewisetiyaningrum31_gmail_com">dewisetiyaningrum31@gmail.com</string>
+</resources>
